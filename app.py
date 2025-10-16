@@ -10,7 +10,7 @@ import os
 app = Flask(__name__)
 
 # Telegram Bot Token (Environment variable එකෙන් ගන්න)
-BOT_TOKEN = os.environ.get('BOT_TOKEN', 'YOUR_BOT_TOKEN_HERE')
+BOT_TOKEN = os.environ.get('8025378224:AAHUAhgqJ-adKEKCcm7JZuhD5MQYFIEknQk', 'YOUR_BOT_TOKEN_HERE')
 
 # Database setup (Vercel එකේ SQLite work නොකරයි, ඒකට JSON use කරන්න)
 import json
